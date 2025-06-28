@@ -16,6 +16,10 @@ This script was designed with performance, ease of use, and customization in min
 * **Easy Configuration:** A detailed and well-commented `config.lua` file allows for easy setup of interaction points.
 * **Export Support:** Use the script's exports in your other resources to dynamically create or remove interaction zones.
 
+![Showcase](https://cdn.discordapp.com/attachments/924395982966378576/1388110975927849020/image.png?ex=68607356&is=685f21d6&hm=a20939c516ab8a0bfc05b8ce0e797f1fd33b0c65f018b2bd6335d0b10ee7f3e4&)
+![Showcase2](https://github.com/user-attachments/assets/c17c4b3a-a17e-4af3-af8e-2a32c9078a26)
+
+
 Feel free to open an issue if you find any bugs or have suggestions for new features!
 
 sagi_asdasdas - discord
