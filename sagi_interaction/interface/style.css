@@ -1,0 +1,81 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.interaction-wrapper {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-romo {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(15, 23, 42, 0.8);
+  border: 2px solid rgba(56, 73, 114, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.progress-ring {
+  position: absolute;
+  top: -5px; 
+  left: -5px;
+  transform: rotate(-90deg);
+}
+
+.progress-ring-circle,
+.progress-ring-bg {
+  fill: transparent;
+  stroke-width: 4px; 
+}
+
+.progress-ring-bg {
+  stroke: rgba(56, 73, 114, 0.5);
+}
+
+.progress-ring-circle {
+  stroke: #60a5fa;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+
+.label-sagi {
+  display: flex;
+  align-items: center;
+  background-color: rgba(15, 23, 42, 0.8);
+  color: white;
+  padding: 10px 16px 10px 14px;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(56, 73, 114, 0.5);
+}
+
+#label-icon {
+  font-size: 18px; 
+  width: 20px;     
+  text-align: center;
+  margin-right: 8px;
+  color: #34d399;
+}
+
+#label-text {
+  color: #cbd5e1;
+}
